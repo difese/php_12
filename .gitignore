@@ -1,0 +1,14 @@
+# Editor directories and files
+
+/task12.6
+
+index.html
+
+.idea
+.vscode
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?

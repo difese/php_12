@@ -1,0 +1,99 @@
+.body {
+  margin: 0 auto;
+  box-sizing: border-box;
+  min-width: 1551px;
+  max-width: 2048px;
+  background: gray url('../images/bubbles.jpg') no-repeat center / cover;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.functions__list {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 0;
+  padding: 0;
+}
+
+.functions__list div {
+  padding: 5px;
+}
+
+.functions__list div:nth-child(1) {
+  margin-bottom: 5px;
+}
+
+.function__item {
+  margin: 10px;
+  padding: 10px;
+  max-width: 450px;
+  background-color: pink;
+  border-radius: 25px;
+  border: 10px solid lightslategray;
+}
+
+.task1 {
+  order: 2;
+}
+
+.task2 {
+  order: 3;
+}
+
+.task3 {
+  order: 5;
+}
+
+.task4 {
+  order: 4;
+}
+
+.task5 {
+  order: 1;
+}
+
+.function__title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  background-color: gray;
+  text-align: center;
+}
+
+.function__info {
+  font-size: 0.8rem;
+  color: darkslategray;
+}
+
+.result__title {
+  font-size: 1rem;
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+  background-color: lightslategray;
+  text-align: center;
+}
+
+.result__content {
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 0.15rem;
+  color: firebrick;
+  background-color: darkgray;
+  text-align: center;
+  filter: grayscale(25%);
+  border: 2px dashed firebrick;
+}
+
+.code {
+  font-weight: bold;
+  letter-spacing: 0.08rem;
+  color: darkslategray;
+  background-color: lightgray;
+}
+
+.result__title > .code {
+  color: firebrick;
+}
